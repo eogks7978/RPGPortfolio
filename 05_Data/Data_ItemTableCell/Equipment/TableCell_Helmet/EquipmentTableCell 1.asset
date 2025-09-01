@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892a8a25ed2d6304791db0a05528085f, type: 3}
+  m_Name: EquipmentTableCell 1
+  m_EditorClassIdentifier: 
+  _ItemType: 1
+  Code: 2002
+  Name: "\uD2BC\uD2BC\uD55C \uBAA8\uC790"
+  Description: "\uD2BC\uD2BC\uD558\uAC8C \uC81C\uC791\uB41C \uBAA8\uC790."
+  Icon: {fileID: 993961248, guid: 8f05f4641980ba34383eb3e3fbd2998c, type: 3}
+  Rarity: {fileID: 11400000, guid: bfa6047f05f48004e9dd21cd6d64bf80, type: 2}
+  SellPrice: 28
+  BuyPrice: 420
+  MaxStack: 1
+  equipmentType: 1
+  equipmentTag: 3
+  ItemSprite: {fileID: 993961248, guid: 8f05f4641980ba34383eb3e3fbd2998c, type: 3}
+  OriginalRotation: {x: 0, y: 0, z: 0}
+  Stat:
+    MaxHealth: 40
+    MaxMana: 11
+    AttackPoint: 0
+    DefensePoint: 3
+    AttackSpeed: 0
+    MoveSpeed: 0
+    Strength: 0
+    Dexterity: 0
+    Constitution: 0
+  EnhanceData:
+    EnhanceBonus:
+    - Level: 0
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 1
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 2
+      SuccessChance: 0.9
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 1
+        MaxValue: 1
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 3
+      SuccessChance: 0.85
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 4
+      SuccessChance: 0.8
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 5
+      SuccessChance: 0.7
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 1
+        MaxValue: 1
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 6
+      SuccessChance: 0.5
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 7
+      SuccessChance: 0.4
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 8
+      SuccessChance: 0.2
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 1
+        MaxValue: 1
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 9
+      SuccessChance: 0.1
+      EnhanceDatas:
+      - StatToEnhance: MaxHealth
+        MinValue: 3
+        MaxValue: 4
+      - StatToEnhance: MaxMana
+        MinValue: 1
+        MaxValue: 2
+      - StatToEnhance: DefensePoint
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1

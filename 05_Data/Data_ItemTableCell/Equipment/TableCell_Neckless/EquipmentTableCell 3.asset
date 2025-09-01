@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892a8a25ed2d6304791db0a05528085f, type: 3}
+  m_Name: EquipmentTableCell 3
+  m_EditorClassIdentifier: 
+  _ItemType: 1
+  Code: 6004
+  Name: "\uB8E8\uBE44 \uBAA9\uAC78\uC774"
+  Description: "\uB8E8\uBE44\uC7A5\uC2DD\uC758 \uBAA9\uAC78\uC774."
+  Icon: {fileID: -1399677623, guid: 8f05f4641980ba34383eb3e3fbd2998c, type: 3}
+  Rarity: {fileID: 11400000, guid: bfa6047f05f48004e9dd21cd6d64bf80, type: 2}
+  SellPrice: 80
+  BuyPrice: 1200
+  MaxStack: 1
+  equipmentType: 1
+  equipmentTag: 8
+  ItemSprite: {fileID: -1399677623, guid: 8f05f4641980ba34383eb3e3fbd2998c, type: 3}
+  OriginalRotation: {x: 0, y: 0, z: 0}
+  Stat:
+    MaxHealth: 0
+    MaxMana: 0
+    AttackPoint: 0
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    Strength: 7
+    Dexterity: 5
+    Constitution: 2
+  EnhanceData:
+    EnhanceBonus:
+    - Level: 0
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 2
+        MaxValue: 3
+      - StatToEnhance: Dexterity
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Constitution
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 1
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Dexterity
+        MinValue: 2
+        MaxValue: 3
+      - StatToEnhance: Constitution
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 2
+      SuccessChance: 0.9
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Dexterity
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Constitution
+        MinValue: 2
+        MaxValue: 3
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 3
+      SuccessChance: 0.85
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 2
+        MaxValue: 3
+      - StatToEnhance: Dexterity
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Constitution
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 4
+      SuccessChance: 0.8
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Dexterity
+        MinValue: 2
+        MaxValue: 3
+      - StatToEnhance: Constitution
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 5
+      SuccessChance: 0.7
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Dexterity
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Constitution
+        MinValue: 2
+        MaxValue: 3
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 6
+      SuccessChance: 0.5
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 2
+        MaxValue: 3
+      - StatToEnhance: Dexterity
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Constitution
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 7
+      SuccessChance: 0.4
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Dexterity
+        MinValue: 2
+        MaxValue: 3
+      - StatToEnhance: Constitution
+        MinValue: 0
+        MaxValue: 0
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 8
+      SuccessChance: 0.2
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Dexterity
+        MinValue: 0
+        MaxValue: 0
+      - StatToEnhance: Constitution
+        MinValue: 2
+        MaxValue: 3
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 9
+      SuccessChance: 0.1
+      EnhanceDatas:
+      - StatToEnhance: Strength
+        MinValue: 1
+        MaxValue: 3
+      - StatToEnhance: Dexterity
+        MinValue: 1
+        MaxValue: 3
+      - StatToEnhance: Constitution
+        MinValue: 1
+        MaxValue: 3
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1

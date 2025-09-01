@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2522709946038009452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5595480975324834046}
+  - component: {fileID: 4159362651123862734}
+  m_Layer: 0
+  m_Name: WandNormalAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5595480975324834046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2522709946038009452}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5169190065419007871}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4159362651123862734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2522709946038009452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c7ef22d24cf884080eb35c3d3206a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\uBC88\uAC1C\uC3D8\uAE30"
+  availableLevel: 1
+  grade: 0
+  icon: {fileID: 21300000, guid: 21df9195ed43b004394e6d7913b03149, type: 3}
+  skillLevelData:
+    SkillLevelAndStatus:
+    - key: 1
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 2
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.1
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 3
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.2
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 4
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.3
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 5
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.35
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 6
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.4
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 7
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.5
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 8
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.6
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 9
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.7
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    - key: 10
+      value:
+        StatMagnification:
+        - statName: AttackPoint
+          value: 1.75
+        ActiveRange: 3
+        requiredMana: 0
+        Cooldown: 0
+        SkillRange: 0
+    maxSkillLevel: 10
+  attackAnimationName: Attack_Magic
+  thisAnim: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 130d4e346b8289a43bdeabf05eea14fb, type: 3}
+  description: "\uAE30\uCD08\uC801\uC778 \uACF5\uACA9\uB9C8\uBC95."
+  maxProjectileShotCount: 1
+  projectileSpeed: 8
+  controller: {fileID: 9100000, guid: 57567eec2f4d1e34c8d3af3d0ca15cf0, type: 2}
+  hitEffect: {fileID: 2099676478715293720, guid: dacb69a2a7311444cb3716556c74072b, type: 3}
+  projectileHitSound: {fileID: 8300000, guid: 27167ff5f8595e140940c162334f621c, type: 3}
+--- !u!1 &3761083788068025639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5169190065419007871}
+  - component: {fileID: 4449377989780961384}
+  m_Layer: 0
+  m_Name: Sprite-sheet1_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5169190065419007871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761083788068025639}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5595480975324834046}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4449377989780961384
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761083788068025639}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 1.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

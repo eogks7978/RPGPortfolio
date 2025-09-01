@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0c5086cd52b7846b0a4433746be159, type: 3}
+  m_Name: PIeceOfSilver
+  m_EditorClassIdentifier: 
+  _ItemType: 3
+  Code: 13002
+  Name: "\uC740\uC870\uAC01"
+  Description: "\uC740\uC73C\uB85C \uB41C \uD30C\uD3B8."
+  Icon: {fileID: 21300000, guid: e504bf3779bda9c40ba6d311e0611951, type: 3}
+  Rarity: {fileID: 11400000, guid: f9a3dfb4b04a6f448bd64b0d1e6b7990, type: 2}
+  SellPrice: 5
+  BuyPrice: 10
+  MaxStack: 99

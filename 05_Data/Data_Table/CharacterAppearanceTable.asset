@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d1a1dc12d7a8140a7c2ea42b4ddfc0, type: 3}
+  m_Name: CharacterAppearanceTable
+  m_EditorClassIdentifier: 
+  HairList:
+  - {fileID: 11400000, guid: 595878cf496d7ab4392fef72a26cd44f, type: 2}
+  - {fileID: 11400000, guid: ff4ac7805ea8b1947b1f54575d5c111c, type: 2}
+  - {fileID: 11400000, guid: bb18a47d81bc72c4cbad08b300209920, type: 2}
+  - {fileID: 11400000, guid: 9c6aa4b2312696f4bacc44d7bee13448, type: 2}
+  - {fileID: 11400000, guid: 21853f7c98b9f2743944d54838a61912, type: 2}
+  - {fileID: 11400000, guid: a4edd3d8e24ccbb4eb5079bf496207b2, type: 2}
+  - {fileID: 11400000, guid: 283b624ad3037074187df489ec073b57, type: 2}
+  - {fileID: 11400000, guid: 1fec6ed0e5f9f0649a3dc0ad6a6a9ccd, type: 2}
+  - {fileID: 11400000, guid: 4dd4ea22bca802e4d839b0a8c8134944, type: 2}
+  FacehairList:
+  - {fileID: 11400000, guid: 1c1e5b9059938c14f8135a12ebd6f8af, type: 2}
+  - {fileID: 11400000, guid: 1dec2d7b69f7b654289defa9f24e0ffb, type: 2}
+  - {fileID: 11400000, guid: e778561b62ef51440b4d93a899a0b9ce, type: 2}
+  - {fileID: 11400000, guid: 7104b38bb6b10634097982b3c35da8e2, type: 2}
+  - {fileID: 11400000, guid: 972844881cfa9a64abd6734ce5ee8139, type: 2}
+  - {fileID: 11400000, guid: 8ecfd97511e1f8244bcf4784d5d70a18, type: 2}
+  - {fileID: 11400000, guid: 577f2f5d7926d0e44aa6858f364516a3, type: 2}
+  EyesList:
+  - {fileID: 11400000, guid: 925e325a40c335a4d9dfc7c90bbb0dc2, type: 2}
+  - {fileID: 11400000, guid: 070d9a4e9ae9ea64d8ecc4d595379e21, type: 2}
+  - {fileID: 11400000, guid: 636031411dde2ca418510988ca70b9e4, type: 2}
+  - {fileID: 11400000, guid: 4d2a94cb1aa7bf54289157bb7a811855, type: 2}
+  - {fileID: 11400000, guid: 45c162e33236d1f46aeaf4034bbbd6a4, type: 2}
+  - {fileID: 11400000, guid: 06897a3647508644c92f84af16cf4aa4, type: 2}
+  - {fileID: 11400000, guid: 083d905e75c5560409ac02caef584163, type: 2}
+  - {fileID: 11400000, guid: d80b58a3dc871f744a7fdfa44df42ea1, type: 2}
+  - {fileID: 11400000, guid: 286220e3ac452fa40a5e09464f05d193, type: 2}
+  - {fileID: 11400000, guid: b789c0d81642afd459db5981b4e36cc0, type: 2}
+  SkinList:
+  - {fileID: 11400000, guid: 7e90ad74f62906f43b41e59f19c04fa0, type: 2}
+  - {fileID: 11400000, guid: dab9b65309e33ea4dac6e3835f18cd11, type: 2}
+  - {fileID: 11400000, guid: 273dcb5b797341441889ee5da49fcbfc, type: 2}
+  - {fileID: 11400000, guid: 78cc16028e0f15e4ab3984c411d0ecf8, type: 2}
+  - {fileID: 11400000, guid: 28af77b5fc11f824a862f810a3454dc4, type: 2}

@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892a8a25ed2d6304791db0a05528085f, type: 3}
+  m_Name: EquipmentTableCell 13
+  m_EditorClassIdentifier: 
+  _ItemType: 1
+  Code: 14
+  Name: "\uACE0\uB300 \uC9C0\uD321\uC774"
+  Description: "\uACE0\uB300 \uC804\uC0AC\uB4E4\uC774 \uC0AC\uC6A9\uD588\uB358 \uC9C0\uD321\uC774."
+  Icon: {fileID: -1783876242, guid: 643f1c7283c232948abb869150502a7e, type: 3}
+  Rarity: {fileID: 11400000, guid: df4ba3b1436392c44902728d383393b3, type: 2}
+  SellPrice: 500
+  BuyPrice: 7500
+  MaxStack: 1
+  equipmentType: 0
+  equipmentTag: 2
+  ItemSprite: {fileID: -1783876242, guid: 643f1c7283c232948abb869150502a7e, type: 3}
+  OriginalRotation: {x: 180, y: 0, z: 180}
+  Stat:
+    MaxHealth: 0
+    MaxMana: 0
+    AttackPoint: 90
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    Strength: 0
+    Dexterity: 0
+    Constitution: 0
+  EnhanceData:
+    EnhanceBonus:
+    - Level: 0
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 8
+        MaxValue: 12
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 1
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 7
+        MaxValue: 10
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 2
+      SuccessChance: 0.9
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 8
+        MaxValue: 12
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 3
+      SuccessChance: 0.85
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 7
+        MaxValue: 10
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.7
+        MaxValue: 0.9
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 4
+      SuccessChance: 0.8
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 8
+        MaxValue: 12
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 5
+      SuccessChance: 0.7
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 7
+        MaxValue: 10
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 6
+      SuccessChance: 0.5
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 8
+        MaxValue: 12
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.7
+        MaxValue: 0.9
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 7
+      SuccessChance: 0.4
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 7
+        MaxValue: 10
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 8
+      SuccessChance: 0.2
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 8
+        MaxValue: 12
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1
+    - Level: 9
+      SuccessChance: 0.1
+      EnhanceDatas:
+      - StatToEnhance: AttackPoint
+        MinValue: 7
+        MaxValue: 10
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+      - key: 13009
+        value: 1

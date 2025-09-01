@@ -1,0 +1,57 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyStrikingDistanceCheck : MonoBehaviour
+{
+    private Monster monster;
+    private Coroutine waitAttackDoneCoroutine;
+
+    private void Awake()
+    {
+        monster = GetComponentInParent<Monster>();
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == monster.TargetTag)
+        {
+            monster.SetTarget(collision.transform);
+            monster.SetStrikingDistanceBool(true);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (gameObject.activeInHierarchy
+            && collision.gameObject.tag == monster.TargetTag)
+        {
+            if (waitAttackDoneCoroutine != null)
+                StopCoroutine(waitAttackDoneCoroutine);
+            waitAttackDoneCoroutine = 
+                StartCoroutine(WaitAttackDone());
+        }
+    }
+
+    private IEnumerator WaitAttackDone()
+    {
+        yield return new WaitWhile(() => monster.IsAttacking);
+        ChangeState();
+    }
+
+    private void ChangeState()
+    {
+        monster.SetStrikingDistanceBool(false);
+
+        if (monster.IsAggroed)
+            monster.StateMachine.ChangeState(monster.ChaseState);
+        else
+            monster.StateMachine.ChangeState(monster.BackToSpawnState);
+    }
+}

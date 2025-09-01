@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c127eb3a911db4140be6f653d79b009a, type: 3}
+  m_Name: SkillTableCell 12
+  m_EditorClassIdentifier: 
+  Code: 5
+  Skill: {fileID: 6389154331500958590, guid: 7d69929cc00609e41a3fea8c5b99ec46, type: 3}

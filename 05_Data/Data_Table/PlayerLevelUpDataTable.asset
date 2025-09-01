@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dd6621e3804c84d94f806ffcb5dc09, type: 3}
+  m_Name: PlayerLevelUpDataTable
+  m_EditorClassIdentifier: 
+  List:
+  - Level: 1
+    MaxExperience: 20
+    SkillPoint: 1
+    MaxHealth: 0
+    MaxMana: 0
+    AttackPoint: 0
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 0
+  - Level: 2
+    MaxExperience: 45
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 3
+    MaxExperience: 60
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 4
+    MaxExperience: 85
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 5
+    MaxExperience: 110
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 2
+    DefensePoint: 1
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 5
+  - Level: 6
+    MaxExperience: 140
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 7
+    MaxExperience: 180
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 8
+    MaxExperience: 220
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 9
+    MaxExperience: 260
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 10
+    MaxExperience: 310
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 2
+    DefensePoint: 1
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 5
+  - Level: 11
+    MaxExperience: 360
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 12
+    MaxExperience: 410
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 13
+    MaxExperience: 460
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 14
+    MaxExperience: 510
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 15
+    MaxExperience: 570
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 2
+    DefensePoint: 1
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 5
+  - Level: 16
+    MaxExperience: 630
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 17
+    MaxExperience: 720
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 18
+    MaxExperience: 820
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 19
+    MaxExperience: 930
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 20
+    MaxExperience: 1050
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 2
+    DefensePoint: 1
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 5
+  - Level: 21
+    MaxExperience: 1180
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 22
+    MaxExperience: 1320
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 23
+    MaxExperience: 1470
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 24
+    MaxExperience: 1630
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 25
+    MaxExperience: 1800
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 2
+    DefensePoint: 1
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 5
+  - Level: 26
+    MaxExperience: 1980
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 27
+    MaxExperience: 2200
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 28
+    MaxExperience: 2500
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 29
+    MaxExperience: 2900
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 1
+    DefensePoint: 0
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 3
+  - Level: 30
+    MaxExperience: 3500
+    SkillPoint: 1
+    MaxHealth: 20
+    MaxMana: 10
+    AttackPoint: 2
+    DefensePoint: 1
+    AttackSpeed: 0
+    MoveSpeed: 0
+    StatPoint: 5

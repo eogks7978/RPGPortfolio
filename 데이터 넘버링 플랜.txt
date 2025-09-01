@@ -1,0 +1,33 @@
+Data Numbering Plan
+
+==== MapObjectTable ====
+MapObject 0 ~
+========================
+
+====== ItemTable =======
+Weapon 1 ~ 1000
+Armor 1001 ~ 2000
+Helmet 2001 ~ 3000
+Boots 3001 ~ 4000
+Pants 4001 ~ 5000
+Ring 5001 ~ 6000
+Neckless 6001 ~ 7000
+
+Consumables 10000 ~ 12999
+EnhanceEtc 13000 ~ 13999
+MonsterLoots 14000 ~ 17999
+========================
+
+===== MonsterTable =====
+Normal 0 ~ 999
+Elite 1000 ~ 1999
+Boss 2000 ~ 2999
+========================
+
+====== SoundTable ======
+Bgm 1 ~ 999
+Sfx 1000 ~ 5000
+========================
+
+===== TilemapTable =====
+========================

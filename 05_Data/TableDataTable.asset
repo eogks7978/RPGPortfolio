@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9334f14c75aa7b4f8a8803ff92f642e, type: 3}
+  m_Name: TableDataTable
+  m_EditorClassIdentifier: 
+  MapObjectTables: {fileID: 11400000, guid: 56ea74f0767eb804292ee8c7949b5904, type: 2}
+  SoundTables: {fileID: 11400000, guid: f4eddf3304b6ec146ae7bc5bf89155db, type: 2}
+  MapTables: {fileID: 11400000, guid: 2f05c325461a89a4eb47286b51eedd2d, type: 2}
+  TilemapTable: {fileID: 11400000, guid: de4b9c77a7f31ec498d9166051524f3e, type: 2}
+  BackgroundTable: {fileID: 11400000, guid: c2d29fd4cd70c11419d47a4f30d5cb9c, type: 2}
+  MonsterTable: {fileID: 11400000, guid: 4e19c8557d2458646a6011c4ace8cb5c, type: 2}
+  SkillTable: {fileID: 11400000, guid: 1554b59491fb41b40b928be1a1cccb0b, type: 2}
+  PlayerLevelUpTable: {fileID: 11400000, guid: 2998792617c97d34a9764f0e02d51254, type: 2}
+  ItemTable: {fileID: 11400000, guid: 6c4903ed547d48c4c93f471acf3727b7, type: 2}
+  NPCTable: {fileID: 11400000, guid: f05eca567b3b55c419bc190b28969b28, type: 2}
+  CharacterAppearanceTable: {fileID: 11400000, guid: 75aa2c240e1f2be499d4c290d13139d1, type: 2}
+  CraftingTable: {fileID: 11400000, guid: b0eb69dc22deec84caf4e60b65761c7d, type: 2}

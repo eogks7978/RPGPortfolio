@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bae71ff614d56b46928e034dba25218, type: 3}
+  m_Name: MonsterTableCell 1
+  m_EditorClassIdentifier: 
+  Code: 1
+  MonsterName: "\uD65C \uB4E0 \uD574\uACE8"
+  Prefab: {fileID: 2575301188276862419, guid: 5eefc8df2426b1a4b8f3fa184c7a861d, type: 3}
+  DropItemData:
+    data:
+    - ItemTbCell: {fileID: 11400000, guid: bb07663b08aad774488633e4b22c6d00, type: 2}
+      DropRate: 0.2
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 74202ece52f7b274c820245ca8a7fe5c, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 05603102d8415ca4d8121adde04c9d0f, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 7cb7e094674eb6c4887e93deeebd74ac, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 8a4952b547e455c49a63d2a3018e6cb0, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 2
+    - ItemTbCell: {fileID: 11400000, guid: 03d4fe4bec4e3fa4a9054a690bba5dff, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 2
+    - ItemTbCell: {fileID: 11400000, guid: 19e73741a9fa5a44fbe069f6f35787b4, type: 2}
+      DropRate: 0.05
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 03acdc5d086173948b81a9de2b1e9d0b, type: 2}
+      DropRate: 0.05
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 5e496c6f060b42d4db124f5e2f69b396, type: 2}
+      DropRate: 0.05
+      MaxDropCount: 1

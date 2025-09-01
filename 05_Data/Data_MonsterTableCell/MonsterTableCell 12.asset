@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bae71ff614d56b46928e034dba25218, type: 3}
+  m_Name: MonsterTableCell 12
+  m_EditorClassIdentifier: 
+  Code: 12
+  MonsterName: "\uD604\uC0C1\uAE08 \uC0AC\uB0E5\uAFBC"
+  Prefab: {fileID: 6051680759137944941, guid: 19d19428c09b55b44ace7239577195e7, type: 3}
+  DropItemData:
+    data:
+    - ItemTbCell: {fileID: 11400000, guid: bb07663b08aad774488633e4b22c6d00, type: 2}
+      DropRate: 0.2
+      MaxDropCount: 3
+    - ItemTbCell: {fileID: 11400000, guid: 8ae42a190252471458707bee606d5fd2, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 3
+    - ItemTbCell: {fileID: 11400000, guid: 74202ece52f7b274c820245ca8a7fe5c, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 3
+    - ItemTbCell: {fileID: 11400000, guid: 86c77ecf1d08a44478522069db60273c, type: 2}
+      DropRate: 0.1
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 7d11b5b83f54c3c44b6097bdeb89c38a, type: 2}
+      DropRate: 0.1
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 3defc39b152b89e47a5e8692da91c364, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 2
+    - ItemTbCell: {fileID: 11400000, guid: 5ab310f50fbb1644d97fe399ea22c60f, type: 2}
+      DropRate: 0.3
+      MaxDropCount: 2
+    - ItemTbCell: {fileID: 11400000, guid: e70777a4520ba4e45b21b12d12601f26, type: 2}
+      DropRate: 0.03
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: ee42f1e408197f14c85b47c8974510f8, type: 2}
+      DropRate: 0.03
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: 7b897597076a9fd4dbaba8afcebbe5e2, type: 2}
+      DropRate: 0.03
+      MaxDropCount: 1
+    - ItemTbCell: {fileID: 11400000, guid: c91a0e5925273934d990781615a87a20, type: 2}
+      DropRate: 0.03
+      MaxDropCount: 1

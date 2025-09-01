@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37966f53bf5466c4e8b107b774dc6b7a, type: 3}
+  m_Name: SoundTable
+  m_EditorClassIdentifier: 
+  Bgm:
+  - {fileID: 11400000, guid: deaf712d3e722574eb3cc27549a1323d, type: 2}
+  - {fileID: 11400000, guid: d77f68ed5c392fb498c2d73e0447b001, type: 2}
+  - {fileID: 11400000, guid: b432cd9cc4e22424eb62b99d77946bf0, type: 2}
+  - {fileID: 11400000, guid: e003a4fd1f6fced408447e7f3af794ae, type: 2}
+  - {fileID: 11400000, guid: 454f55a03ceff7644a8ac478392d395a, type: 2}
+  - {fileID: 11400000, guid: c797d22421841274dac23718ac014eae, type: 2}
+  Sfx: []

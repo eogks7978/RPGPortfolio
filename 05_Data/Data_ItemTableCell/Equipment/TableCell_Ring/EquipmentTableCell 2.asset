@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892a8a25ed2d6304791db0a05528085f, type: 3}
+  m_Name: EquipmentTableCell 2
+  m_EditorClassIdentifier: 
+  _ItemType: 1
+  Code: 5003
+  Name: "\uC218\uC815 \uBC18\uC9C0"
+  Description: "\uC218\uC815\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uC9C4 \uBC18\uC9C0."
+  Icon: {fileID: 790592502, guid: 8f05f4641980ba34383eb3e3fbd2998c, type: 3}
+  Rarity: {fileID: 11400000, guid: bfa6047f05f48004e9dd21cd6d64bf80, type: 2}
+  SellPrice: 81
+  BuyPrice: 1210
+  MaxStack: 1
+  equipmentType: 1
+  equipmentTag: 7
+  ItemSprite: {fileID: 790592502, guid: 8f05f4641980ba34383eb3e3fbd2998c, type: 3}
+  OriginalRotation: {x: 0, y: 0, z: 0}
+  Stat:
+    MaxHealth: 0
+    MaxMana: 0
+    AttackPoint: 0
+    DefensePoint: 0
+    AttackSpeed: 0.15
+    MoveSpeed: 0.06
+    Strength: 0
+    Dexterity: 0
+    Constitution: 0
+  EnhanceData:
+    EnhanceBonus:
+    - Level: 0
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 1
+      SuccessChance: 1
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 2
+      SuccessChance: 0.9
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 3
+      SuccessChance: 0.85
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 4
+      SuccessChance: 0.8
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 5
+      SuccessChance: 0.7
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 6
+      SuccessChance: 0.5
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 7
+      SuccessChance: 0.4
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 8
+      SuccessChance: 0.2
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
+    - Level: 9
+      SuccessChance: 0.1
+      EnhanceDatas:
+      - StatToEnhance: AttackSpeed
+        MinValue: 0.007
+        MaxValue: 0.013
+      - StatToEnhance: MoveSpeed
+        MinValue: 0.004
+        MaxValue: 0.007
+      MaterialItemCodeAndRequiredNumber:
+      - key: 13011
+        value: 1
